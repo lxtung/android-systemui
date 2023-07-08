@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"ਫ਼ੋਨ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਚਾਰਜ ਕਰਨ ਲਈ ਡੌਕ \'ਤੇ ਸਹੀ ਕਰਕੇ ਰੱਖੋ"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"ਫ਼ੋਨ ਨੂੰ ਬਿਨਾਂ ਤਾਰ ਤੋਂ ਚਾਰਜ ਕਰਨ ਲਈ ਡੌਕ \'ਤੇ ਸਹੀ ਕਰਕੇ ਰੱਖੋ"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV ਡੀਵਾਈਸ ਜਲਦ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇਗਾ; ਇਸਨੂੰ ਚਾਲੂ ਰੱਖਣ ਲਈ ਕੋਈ ਬਟਨ ਦਬਾਓ।"</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"ਡੀਵਾਈਸ ਜਲਦ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇਗਾ; ਇਸਨੂੰ ਚਾਲੂ ਰੱਖਣ ਲਈ ਦਬਾਓ।"</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"ਟੈਬਲੈੱਟ ਵਿੱਚ ਕੋਈ ਸਿਮ ਕਾਰਡ ਮੌਜੂਦ ਨਹੀਂ।"</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"ਫ਼ੋਨ ਵਿੱਚ ਕੋਈ ਸਿਮ ਕਾਰਡ ਮੌਜੂਦ ਨਹੀਂ।"</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"ਪਿੰਨ ਕੋਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਇਹ ਟੈਬਲੈੱਟ ਰੀਸੈੱਟ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਇਸਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਇਹ ਫ਼ੋਨ ਰੀਸੈੱਟ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਇਸਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਇਹ ਟੈਬਲੈੱਟ ਰੀਸੈੱਟ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਇਸਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਇਹ ਫ਼ੋਨ ਰੀਸੈੱਟ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਇਸਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਪ੍ਰੋਫਾਈਲ ਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਪ੍ਰੋਫਾਈਲ ਦਾ ਸਾਰਾ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਪ੍ਰੋਫਾਈਲ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER">%d</xliff:g> ਵਾਰ ਗਲਤ ਢੰਗ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ। ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਨਾਲ ਸਾਰਾ ਪ੍ਰੋਫਾਈਲ ਡਾਟਾ ਮਿਟ ਜਾਵੇਗਾ।"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਆਪਣਾ ਅਣਲਾਕ ਪੈਟਰਨ ਗਲਤ ਢੰਗ ਨਾਲ ਉਲੀਕਿਆ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਇੱਕ ਈਮੇਲ ਖਾਤਾ ਵਰਤਦੇ ਹੋਏ ਆਪਣੇ ਟੈਬਲੈੱਟ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ।\n\n<xliff:g id="NUMBER_2">%3$d</xliff:g> ਸਕਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"ਤੁਸੀਂ <xliff:g id="NUMBER_0">%1$d</xliff:g> ਵਾਰ ਆਪਣਾ ਅਣਲਾਕ ਪੈਟਰਨ ਗਲਤ ਢੰਗ ਨਾਲ ਡ੍ਰਾ ਕੀਤਾ ਹੈ। <xliff:g id="NUMBER_1">%2$d</xliff:g> ਹੋਰ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਇੱਕ ਈਮੇਲ ਖਾਤਾ ਵਰਤਦੇ ਹੋਏ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਏਗਾ।\n\n <xliff:g id="NUMBER_2">%3$d</xliff:g> ਸਕਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰੋ"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਆਪਣਾ ਟੈਬਲੈੱਟ ਅਣਲਾਕ ਕਰੋ"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਆਪਣਾ ਡੀਵਾਈਸ ਅਣਲਾਕ ਕਰੋ"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"ਇਸ ਫ਼ੋਨ \'ਤੇ ਚਲਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"ਇਸ ਟੈਬਲੈੱਟ \'ਤੇ ਚਲਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"</string>
+</resources>

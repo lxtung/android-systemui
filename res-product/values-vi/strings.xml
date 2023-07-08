@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Điều chỉnh lại vị trí điện thoại để sạc nhanh hơn"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Điều chỉnh lại vị trí điện thoại để sạc không dây"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Thiết bị Android TV sắp tắt. Hãy nhấn vào một nút để duy trì trạng thái bật."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Thiết bị sắp tắt. Hãy nhấn vào một nút để duy trì trạng thái bật."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Không có thẻ SIM nào trong máy tính bảng."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Không có thẻ SIM nào trong điện thoại."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Mã PIN không khớp"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, máy tính bảng này sẽ được đặt lại, tức là tất cả dữ liệu của máy tính bảng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, điện thoại này sẽ được đặt lại, tức là tất cả dữ liệu của điện thoại sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER">%d</xliff:g> lần. Máy tính bảng này sẽ được đặt lại, tức là tất cả dữ liệu của máy tính bảng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER">%d</xliff:g> lần. Điện thoại này sẽ được đặt lại, tức là tất cả dữ liệu của điện thoại sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, người dùng này sẽ bị xóa, tức là tất cả dữ liệu người dùng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, người dùng này sẽ bị xóa, tức là tất cả dữ liệu người dùng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER">%d</xliff:g> lần. Người dùng này sẽ bị xóa, tức là tất cả dữ liệu người dùng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER">%d</xliff:g> lần. Người dùng này sẽ bị xóa, tức là tất cả dữ liệu người dùng sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, hồ sơ công việc sẽ bị xóa, tức là tất cả dữ liệu hồ sơ sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần mở khóa không thành công nữa, hồ sơ công việc sẽ bị xóa, tức là tất cả dữ liệu hồ sơ sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Bạn đã mở khóa máy tính bảng sai <xliff:g id="NUMBER">%d</xliff:g> lần. Hồ sơ công việc sẽ bị xóa, tức là tất cả dữ liệu hồ sơ sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Bạn đã mở khóa điện thoại sai <xliff:g id="NUMBER">%d</xliff:g> lần. Hồ sơ công việc sẽ bị xóa, tức là tất cả dữ liệu hồ sơ sẽ bị xóa."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Bạn đã vẽ không chính xác hình mở khóa <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần thử không thành công nữa, bạn sẽ được yêu cầu mở khóa máy tính bảng bằng tài khoản email.\n\n Hãy thử lại sau <xliff:g id="NUMBER_2">%3$d</xliff:g> giây."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Bạn đã vẽ không chính xác hình mở khóa <xliff:g id="NUMBER_0">%1$d</xliff:g> lần. Sau <xliff:g id="NUMBER_1">%2$d</xliff:g> lần thử không thành công nữa, bạn sẽ được yêu cầu mở khóa điện thoại bằng tài khoản email.\n\n Hãy thử lại sau <xliff:g id="NUMBER_2">%3$d</xliff:g> giây."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Mở khóa điện thoại của bạn để xem thêm tùy chọn"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Mở khóa máy tính bảng của bạn để xem thêm tùy chọn"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Mở khóa thiết bị của bạn để xem thêm tùy chọn"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Đang phát trên điện thoại này"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Đang phát trên máy tính bảng này"</string>
+</resources>

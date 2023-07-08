@@ -1,0 +1,172 @@
+<!--
+  ~ Copyright (C) 2019 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.AuthCredential.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="@integer/biometric_dialog_text_gravity"
+        android:marqueeRepeatLimit="1"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/TextAppearance.AuthCredential.Subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="@integer/biometric_dialog_text_gravity"
+        android:marqueeRepeatLimit="1"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/TextAppearance.AuthCredential.Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+    <Space
+        android:id="@+id/space_above_icon"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <FrameLayout
+        android:id="@+id/biometric_icon_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/biometric_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+    <!-- For sensors such as UDFPS, this view is used during custom measurement/layout to add extra
+         padding so that the biometric icon is always in the right physical position. -->
+    <Space
+        android:id="@+id/space_below_icon"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingHorizontal="24dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/biometric_dialog_gray"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:paddingTop="24dp">
+
+        <Space
+            android:id="@+id/leftSpacer"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <!-- Negative Button, reserved for app -->
+        <Button
+            android:id="@+id/button_negative"
+            style="@*android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/biometric_dialog_button_negative_max_width"
+            android:maxLines="2" />
+        <!-- Cancel Button, replaces negative button when biometric is accepted -->
+        <Button
+            android:id="@+id/button_cancel"
+            style="@*android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:maxWidth="@dimen/biometric_dialog_button_negative_max_width"
+            android:text="@string/cancel"
+            android:visibility="gone" />
+        <!-- "Use Credential" Button, replaces if device credential is allowed -->
+        <Button
+            android:id="@+id/button_use_credential"
+            style="@*android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:maxWidth="@dimen/biometric_dialog_button_negative_max_width"
+            android:visibility="gone" />
+
+        <Space
+            android:id="@+id/middleSpacer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <!-- Positive Button -->
+        <Button
+            android:id="@+id/button_confirm"
+            style="@*android:style/Widget.DeviceDefault.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/biometric_dialog_button_positive_max_width"
+            android:maxLines="2"
+            android:text="@string/biometric_dialog_confirm"
+            android:visibility="gone" />
+        <!-- Try Again Button -->
+        <Button
+            android:id="@+id/button_try_again"
+            style="@*android:style/Widget.DeviceDefault.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/biometric_dialog_button_positive_max_width"
+            android:maxLines="2"
+            android:text="@string/biometric_dialog_try_again"
+            android:visibility="gone" />
+
+        <Space
+            android:id="@+id/rightSpacer"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</merge>

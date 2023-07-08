@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.globalactions.GlobalActionsGridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/global_actions_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/global_actions_grid_container_negative_shadow_offset"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="right | center_vertical"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/global_actions_grid_container_shadow_offset"
+    android:theme="@style/Theme.SystemUI.QuickSettings"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/global_actions_grid_container_bottom_margin"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        >
+        <!-- Grid of action items -->
+        <com.android.systemui.globalactions.ListGridLayout
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/global_actions_grid_side_margin"
+            android:background="?android:attr/colorBackgroundFloating"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/global_actions_grid_vertical_padding"
+            android:paddingTop="@dimen/global_actions_grid_horizontal_padding"
+            android:paddingRight="@dimen/global_actions_grid_vertical_padding"
+            android:paddingBottom="@dimen/global_actions_grid_horizontal_padding"
+            android:translationZ="@dimen/global_actions_translate"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="locale"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="locale"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="locale"
+                android:visibility="gone"
+                />
+        </com.android.systemui.globalactions.ListGridLayout>
+        <!-- For separated items-->
+        <LinearLayout
+            android:id="@+id/separated_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/global_actions_grid_side_margin"
+            android:layout_marginBottom="@dimen/global_actions_grid_side_margin"
+            android:background="?android:attr/colorBackgroundFloating"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/global_actions_grid_vertical_padding"
+            android:paddingTop="@dimen/global_actions_grid_horizontal_padding"
+            android:paddingRight="@dimen/global_actions_grid_vertical_padding"
+            android:paddingBottom="@dimen/global_actions_grid_horizontal_padding"
+            android:translationZ="@dimen/global_actions_translate"
+            />
+
+    </LinearLayout>
+
+</com.android.systemui.globalactions.GlobalActionsGridLayout>

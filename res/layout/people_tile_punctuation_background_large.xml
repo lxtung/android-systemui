@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright (C) 2021 The Android Open Source Project
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~      http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    android:id="@+id/punctuations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:theme="@android:style/Theme.DeviceDefault.DayNight">
+
+    <TextView
+        android:id="@+id/punctuation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:paddingTop="-2dp"
+        android:rotation="5"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/punctuation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingStart="27dp"
+        android:paddingTop="5dp"
+        android:rotation="350"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/punctuation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingEnd="25dp"
+        android:rotation="350"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/punctuation4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingStart="15dp"
+        android:rotation="10"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/punctuation5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingTop="15dp"
+        android:rotation="5"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/punctuation6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingTop="30dp"
+        android:rotation="350"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.ListItem"
+        android:textColor="?androidprv:attr/colorSurfaceVariant"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</RelativeLayout>

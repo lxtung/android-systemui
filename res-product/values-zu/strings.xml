@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Ukwenza ifoni ishaje ngokushesha"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Ukwenza ifoni ishaje ngokungaxhunyiwe"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Idivayisi ye-Android TV maduze izovalwa, cindezela inkinobho ukuze uyigcine ivuliwe."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Idivayisi maduze izovalwa, cindezela ukuze uyigcine ivuliwe."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Alikho ikhadi le-SIM efonini."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Alikho ikhadi le-SIM efonini."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Iphinikhodi ayifani"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, le thebulethi izosethwa kabusha, okuzosusa yonke idatha yayo."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, le foni izosethwa kabusha, okuzosusa yonke idatha yayo."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Le thebulethi izosethwa kabusha, okuzosusa yonke idatha yayo."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Le foni izosethwa kabusha, okuzosusa yonke idatha yayo."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, lo msebenzisi uzosuswa, okuzosusa yonke idatha yomsebenzisi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, lo msebenzisi uzosuswa, okuzosusa yonke idatha yomsebenzisi."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Lo msebenzisi uzosuswa, okuzosusa yonke idatha yomsebenzisi."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Lo msebenzisi uzosuswa, okuzosusa yonke idatha yomsebenzisi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, iphrofayela yomsebenzi izosuswa, okuzosusa yonke idatha yephrofayela."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphezulu kwengu-<xliff:g id="NUMBER_1">%2$d</xliff:g> engaphumelelanga, iphrofayela yomsebenzi, izosuswa, okuzosusa yonke idatha yephrofayela."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Uzame ngokungalungile ukuvula ithebulethi izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Iphrofayela yomsebenzi izosuswa, okuzosusa yonke idatha yephrofayela."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Uzame ngokungalungile ukuvula ifoni izikhathi ezingu-<xliff:g id="NUMBER">%d</xliff:g>. Iphrofayela yomsebenzi izosuswa, okuzosusa yonke idatha yephrofayela."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Udwebe ngokungalungile iphethini yakho yokuvula ngezikhathi ezingu-<xliff:g id="NUMBER_0">%1$d</xliff:g>. Ngemuva kwemizamo engaphumelelanga kaningi engu-<xliff:g id="NUMBER_1">%2$d</xliff:g>, uzocelwa ukuthi uvule ithebulethi yakho usebenzisa i-akhawunti ye-imeyili.\n\nZama futhi kumasekhondi angu-<xliff:g id="NUMBER_2">%3$d</xliff:g>."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Ukulayisha ungenisa iphathini yakho yokuvula ngendlela engalungile izikhathi ezi-<xliff:g id="NUMBER_0">%1$d</xliff:g> Emva kweminye imizamo engu-<xliff:g id="NUMBER_1">%2$d</xliff:g>, uzocelwa ukuvula ifoni yakho usebenzisa ukungena ngemvume ku-Google\n\n Zame futhi emumva kwengu- <xliff:g id="NUMBER_2">%3$d</xliff:g> imizuzwana."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Vula ifoni yakho ukuthola okunye okungakhethwa"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Vula ithebulethi yakho ukuthola okunye okungakhethwa"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Vula idivayisi yakho ukuthola okunye okungakhethwa"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Okudlala kule foni"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Okudlala kule thebhulethi"</string>
+</resources>

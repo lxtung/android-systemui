@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues name="" by="lint 7.1.0-dev" client="" format="6" type="baseline" variant="all"
+    version="7.1.0-dev">
+
+    <issue
+        errorLine1="            throw e.rethrowFromSystemServer();"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level R (current min is 26): `android.os.RemoteException#rethrowFromSystemServer`">
+        <location
+            column="21"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/ActivityManagerWrapper.java"
+            line="90" />
+    </issue>
+
+    <issue
+        errorLine1="                mBuffer != null ? mBuffer.getHardwareBuffer() : null, mRect);"
+        errorLine2="                                          ~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `android.graphics.Bitmap#getHardwareBuffer`">
+        <location
+            column="43"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/view/AppTransitionAnimationSpecCompat.java"
+            line="39" />
+    </issue>
+
+    <issue
+        errorLine1="                        ? new ParcelableColorSpace(ColorSpace.get(ColorSpace.Named.SRGB))"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `new android.graphics.ParcelableColorSpace`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="57" />
+    </issue>
+
+    <issue
+        errorLine1="                        : new ParcelableColorSpace(bitmap.getColorSpace());"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `new android.graphics.ParcelableColorSpace`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="58" />
+    </issue>
+
+    <issue
+        errorLine1="        bundle.putParcelable(KEY_BUFFER, bitmap.getHardwareBuffer());"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `android.graphics.Bitmap#getHardwareBuffer`">
+        <location
+            column="49"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="61" />
+    </issue>
+
+    <issue
+        errorLine1="        bundle.putParcelable(KEY_COLOR_SPACE, colorSpace);"
+        errorLine2="                                              ~~~~~~~~~~"
+        id="NewApi"
+        message="Cast from `ParcelableColorSpace` to `Parcelable` requires API level 31 (current min is 26)">
+        <location
+            column="47"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="62" />
+    </issue>
+
+    <issue
+        errorLine1="        return Bitmap.wrapHardwareBuffer(Objects.requireNonNull(buffer),"
+        errorLine2="                      ~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.graphics.Bitmap#wrapHardwareBuffer`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="84" />
+    </issue>
+
+    <issue
+        errorLine1="                colorSpace.getColorSpace());"
+        errorLine2="                           ~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `android.graphics.ParcelableColorSpace#getColorSpace`">
+        <location
+            column="28"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/utilities/BitmapUtil.java"
+            line="85" />
+    </issue>
+
+    <issue
+        errorLine1="        final SurfaceControl.Transaction tx = new SurfaceControl.Transaction();"
+        errorLine2="                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.view.SurfaceControl.Transaction`">
+        <location
+            column="47"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/pip/PipSurfaceTransactionHelper.java"
+            line="122" />
+    </issue>
+
+    <issue
+        errorLine1="        mPluginActions = new ArraySet&lt;>(mSharedPrefs.getStringSet(PLUGIN_ACTIONS, null));"
+        errorLine2="                         ~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.util.ArraySet`">
+        <location
+            column="26"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/plugins/PluginPrefs.java"
+            line="41" />
+    </issue>
+
+    <issue
+        errorLine1="        return new ArraySet&lt;>(mPluginActions);"
+        errorLine2="               ~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.util.ArraySet`">
+        <location
+            column="16"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/plugins/PluginPrefs.java"
+            line="45" />
+    </issue>
+
+    <issue
+        errorLine1="        return Bitmap.createBitmap(picture);"
+        errorLine2="                      ~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 28 (current min is 26): `android.graphics.Bitmap#createBitmap`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/view/RecentsTransition.java"
+            line="113" />
+    </issue>
+
+    <issue
+        errorLine1="            mSurface = new SurfaceControl.Builder()"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.view.SurfaceControl.Builder`">
+        <location
+            column="24"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="116" />
+    </issue>
+
+    <issue
+        errorLine1="                    .setName(&quot;Transition Unrotate&quot;)"
+        errorLine2="                     ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Builder#setName`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="117" />
+    </issue>
+
+    <issue
+        errorLine1="                    .setParent(parent)"
+        errorLine2="                     ~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Builder#setParent`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="119" />
+    </issue>
+
+    <issue
+        errorLine1="                    .build();"
+        errorLine2="                     ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Builder#build`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="120" />
+    </issue>
+
+    <issue
+        errorLine1="            t.reparent(child, mSurface);"
+        errorLine2="              ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#reparent`">
+        <location
+            column="15"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="137" />
+    </issue>
+
+    <issue
+        errorLine1="            SurfaceControl.Transaction t = new SurfaceControl.Transaction();"
+        errorLine2="                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.view.SurfaceControl.Transaction`">
+        <location
+            column="44"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="143" />
+    </issue>
+
+    <issue
+        errorLine1="                t.reparent(mRotateChildren.get(i), rootLeash);"
+        errorLine2="                  ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#reparent`">
+        <location
+            column="19"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="145" />
+    </issue>
+
+    <issue
+        errorLine1="            t.apply();"
+        errorLine2="              ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="15"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="148" />
+    </issue>
+
+    <issue
+        errorLine1="                        t.setLayer(counterLauncher.mSurface, launcherLayer);"
+        errorLine2="                          ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="200" />
+    </issue>
+
+    <issue
+        errorLine1="                        t.setLayer(counterLauncher.mSurface, info.getChanges().size() * 3);"
+        errorLine2="                          ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="206" />
+    </issue>
+
+    <issue
+        errorLine1="                            t.setLayer(leash, info.getChanges().size() * 3 - i);"
+        errorLine2="                              ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="216" />
+    </issue>
+
+    <issue
+        errorLine1="                        t.setAlpha(wallpapersCompat[i].leash.getSurfaceControl(), 1.f);"
+        errorLine2="                          ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setAlpha`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="223" />
+    </issue>
+
+    <issue
+        errorLine1="                            t.setLayer(counterWallpaper.mSurface, -1);"
+        errorLine2="                              ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="233" />
+    </issue>
+
+    <issue
+        errorLine1="                t.apply();"
+        errorLine2="                  ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="19"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationAdapterCompat.java"
+            line="238" />
+    </issue>
+
+    <issue
+        errorLine1="        taskId = change.getTaskInfo() != null ? change.getTaskInfo().taskId : -1;"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.ActivityManager.RunningTaskInfo#taskId`">
+        <location
+            column="49"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="101" />
+    </issue>
+
+    <issue
+        errorLine1="        taskId = change.getTaskInfo() != null ? change.getTaskInfo().taskId : -1;"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#taskId`">
+        <location
+            column="49"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="192" />
+    </issue>
+
+    <issue
+        errorLine1="            isNotInRecents = !change.getTaskInfo().isRunning;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.ActivityManager.RunningTaskInfo#isRunning`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="116" />
+    </issue>
+
+    <issue
+        errorLine1="            isNotInRecents = !change.getTaskInfo().isRunning;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#isRunning`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="210" />
+    </issue>
+
+    <issue
+        errorLine1="        leash.mSurfaceControl.release();"
+        errorLine2="                              ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl#release`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="159" />
+    </issue>
+
+    <issue
+        errorLine1="            mStartLeash.release();"
+        errorLine2="                        ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl#release`">
+        <location
+            column="25"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteAnimationTargetCompat.java"
+            line="161" />
+    </issue>
+
+    <issue
+        errorLine1="                        t.setLayer(change.getLeash(), info.getChanges().size() * 3 - i);"
+        errorLine2="                          ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="27"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteTransitionCompat.java"
+            line="97" />
+    </issue>
+
+    <issue
+        errorLine1="                    t.setAlpha(wallpapers[i].leash.mSurfaceControl, 1);"
+        errorLine2="                      ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setAlpha`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteTransitionCompat.java"
+            line="105" />
+    </issue>
+
+    <issue
+        errorLine1="                t.apply();"
+        errorLine2="                  ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="19"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/RemoteTransitionCompat.java"
+            line="107" />
+    </issue>
+
+    <issue
+        errorLine1="        return mSurfaceControl != null &amp;&amp; mSurfaceControl.isValid();"
+        errorLine2="                                                          ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl#isValid`">
+        <location
+            column="59"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SurfaceControlCompat.java"
+            line="41" />
+    </issue>
+
+    <issue
+        errorLine1="            mSurfaceControlViewHost.release();"
+        errorLine2="                                    ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level R (current min is 26): `android.view.SurfaceControlViewHost#release`">
+        <location
+            column="37"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SurfaceViewRequestReceiver.java"
+            line="61" />
+    </issue>
+
+    <issue
+        errorLine1="        bundle.putBinder(KEY_HOST_TOKEN, surfaceView.getHostToken());"
+        errorLine2="                                                     ~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level R (current min is 26): `android.view.SurfaceView#getHostToken`">
+        <location
+            column="54"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SurfaceViewRequestUtils.java"
+            line="34" />
+    </issue>
+
+    <issue
+        errorLine1="        bundle.putParcelable(KEY_SURFACE_CONTROL, surfaceView.getSurfaceControl());"
+        errorLine2="                                                              ~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceView#getSurfaceControl`">
+        <location
+            column="63"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SurfaceViewRequestUtils.java"
+            line="35" />
+    </issue>
+
+    <issue
+        errorLine1="        bundle.putParcelable(KEY_SURFACE_CONTROL, surfaceView.getSurfaceControl());"
+        errorLine2="                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Cast from `SurfaceControl` to `Parcelable` requires API level 29 (current min is 26)">
+        <location
+            column="51"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SurfaceViewRequestUtils.java"
+            line="35" />
+    </issue>
+
+    <issue
+        errorLine1="                if (mBarrierSurfaceControl == null || !mBarrierSurfaceControl.isValid()) {"
+        errorLine2="                                                                              ~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl#isValid`">
+        <location
+            column="79"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SyncRtSurfaceTransactionApplierCompat.java"
+            line="107" />
+    </issue>
+
+    <issue
+        errorLine1="                Transaction t = new Transaction();"
+        errorLine2="                                ~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.view.SurfaceControl.Transaction`">
+        <location
+            column="33"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SyncRtSurfaceTransactionApplierCompat.java"
+            line="113" />
+    </issue>
+
+    <issue
+        errorLine1="                    t.apply();"
+        errorLine2="                      ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SyncRtSurfaceTransactionApplierCompat.java"
+            line="122" />
+    </issue>
+
+    <issue
+        errorLine1="                t.setAlpha(surface, alpha);"
+        errorLine2="                  ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setAlpha`">
+        <location
+            column="19"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SyncRtSurfaceTransactionApplierCompat.java"
+            line="361" />
+    </issue>
+
+    <issue
+        errorLine1="                t.setLayer(surface, layer);"
+        errorLine2="                  ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="19"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/SyncRtSurfaceTransactionApplierCompat.java"
+            line="364" />
+    </issue>
+
+    <issue
+        errorLine1="            ComponentName sourceComponent = t.origActivity != null"
+        errorLine2="                                            ~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#origActivity`">
+        <location
+            column="45"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="73" />
+    </issue>
+
+    <issue
+        errorLine1="                    ? t.origActivity"
+        errorLine2="                      ~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#origActivity`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="75" />
+    </issue>
+
+    <issue
+        errorLine1="            this.id = t.taskId;"
+        errorLine2="                      ~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#taskId`">
+        <location
+            column="23"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="78" />
+    </issue>
+
+    <issue
+        errorLine1="            this.baseIntent = t.baseIntent;"
+        errorLine2="                              ~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#baseIntent`">
+        <location
+            column="31"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="80" />
+    </issue>
+
+    <issue
+        errorLine1="        ActivityManager.TaskDescription td = taskInfo.taskDescription;"
+        errorLine2="                                             ~~~~~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#taskDescription`">
+        <location
+            column="46"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="242" />
+    </issue>
+
+    <issue
+        errorLine1="                taskInfo.supportsSplitScreenMultiWindow, isLocked, td, taskInfo.topActivity);"
+        errorLine2="                                                                       ~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#topActivity`">
+        <location
+            column="72"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/Task.java"
+            line="246" />
+    </issue>
+
+    <issue
+        errorLine1="        return info.topActivity;"
+        errorLine2="               ~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#topActivity`">
+        <location
+            column="16"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TaskInfoCompat.java"
+            line="49" />
+    </issue>
+
+    <issue
+        errorLine1="        return info.taskDescription;"
+        errorLine2="               ~~~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#taskDescription`">
+        <location
+            column="16"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TaskInfoCompat.java"
+            line="53" />
+    </issue>
+
+    <issue
+        errorLine1="        onTaskMovedToFront(taskInfo.taskId);"
+        errorLine2="                           ~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.ActivityManager.RunningTaskInfo#taskId`">
+        <location
+            column="28"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TaskStackChangeListener.java"
+            line="70" />
+    </issue>
+
+    <issue
+        errorLine1="        onTaskMovedToFront(taskInfo.taskId);"
+        errorLine2="                           ~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Field requires API level 29 (current min is 26): `android.app.TaskInfo#taskId`">
+        <location
+            column="28"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TaskStackChangeListener.java"
+            line="70" />
+    </issue>
+
+    <issue
+        errorLine1="                thumbnail = Bitmap.wrapHardwareBuffer(buffer, snapshot.getColorSpace());"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.graphics.Bitmap#wrapHardwareBuffer`">
+        <location
+            column="36"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/recents/model/ThumbnailData.java"
+            line="69" />
+    </issue>
+
+    <issue
+        errorLine1="                    (colors.getColorHints() &amp; WallpaperColors.HINT_SUPPORTS_DARK_THEME) != 0;"
+        errorLine2="                            ~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 31 (current min is 26): `android.app.WallpaperColors#getColorHints`">
+        <location
+            column="29"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TonalCompat.java"
+            line="42" />
+    </issue>
+
+    <issue
+        errorLine1="        mTransaction = new Transaction();"
+        errorLine2="                       ~~~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `new android.view.SurfaceControl.Transaction`">
+        <location
+            column="24"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TransactionCompat.java"
+            line="31" />
+    </issue>
+
+    <issue
+        errorLine1="        mTransaction.apply();"
+        errorLine2="                     ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TransactionCompat.java"
+            line="35" />
+    </issue>
+
+    <issue
+        errorLine1="        mTransaction.setBufferSize(surfaceControl.mSurfaceControl, w, h);"
+        errorLine2="                     ~~~~~~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setBufferSize`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TransactionCompat.java"
+            line="54" />
+    </issue>
+
+    <issue
+        errorLine1="        mTransaction.setLayer(surfaceControl.mSurfaceControl, z);"
+        errorLine2="                     ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setLayer`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TransactionCompat.java"
+            line="59" />
+    </issue>
+
+    <issue
+        errorLine1="        mTransaction.setAlpha(surfaceControl.mSurfaceControl, alpha);"
+        errorLine2="                     ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#setAlpha`">
+        <location
+            column="22"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/TransactionCompat.java"
+            line="64" />
+    </issue>
+
+    <issue
+        errorLine1="            t.apply();"
+        errorLine2="              ~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.view.SurfaceControl.Transaction#apply`">
+        <location
+            column="15"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/ViewRootImplCompat.java"
+            line="64" />
+    </issue>
+
+    <issue
+        errorLine1="                .getFloat(Resources.getSystem().getIdentifier("
+        errorLine2="                 ~~~~~~~~"
+        id="NewApi"
+        message="Call requires API level 29 (current min is 26): `android.content.res.Resources#getFloat`">
+        <location
+            column="18"
+            file="frameworks/base/packages/SystemUI/shared/src/com/android/systemui/shared/system/WallpaperManagerCompat.java"
+            line="46" />
+    </issue>
+
+</issues>

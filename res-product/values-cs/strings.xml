@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Zarovnejte telefon, aby se nabíjel rychleji"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Zarovnejte telefon, aby se nabíjel bezdrátově"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Zařízení Android TV se brzy vypne, stisknutím tlačítka ho ponecháte zapnuté."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Zařízení se brzy vypne, stisknutím ho ponecháte zapnuté."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"V tabletu není SIM karta."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"V telefonu není SIM karta."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Kódy PIN se neshodují"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude tablet resetován, čímž se z něj smažou všechna data."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude telefon resetován, čímž se z něj smažou všechna data."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Tablet bude resetován, čímž z něj budou smazána všechna data."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Telefon bude resetován, čímž z něj budou smazána všechna data."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude tento uživatel odstraněn, čímž se smažou všechna jeho data."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude tento uživatel odstraněn, čímž se smažou všechna jeho data."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Uživatel bude odstraněn, čímž budou smazána všechna jeho data."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Uživatel bude odstraněn, čímž budou smazána všechna jeho data."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude pracovní profil odstraněn, čímž se smažou všechna jeho data."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech bude pracovní profil odstraněn, čímž se smažou všechna jeho data."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout tablet nesprávným způsobem. Pracovní profil bude odstraněn, čímž budou smazána všechna jeho data."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Již <xliff:g id="NUMBER">%d</xliff:g>krát jste se pokusili odemknout telefon nesprávným způsobem. Pracovní profil bude odstraněn, čímž budou smazána všechna jeho data."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste nesprávně zadali své bezpečnostní gesto. Po <xliff:g id="NUMBER_1">%2$d</xliff:g>dalších neúspěšných pokusech budete požádáni o odemčení tabletu pomocí e-mailového účtu.\n\n Zkuste to znovu za <xliff:g id="NUMBER_2">%3$d</xliff:g> s."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Již <xliff:g id="NUMBER_0">%1$d</xliff:g>krát jste nesprávně zadali své bezpečnostní gesto. Po <xliff:g id="NUMBER_1">%2$d</xliff:g> dalších neúspěšných pokusech budete požádáni o odemčení telefonu pomocí e-mailového účtu.\n\n Zkuste to znovu za <xliff:g id="NUMBER_2">%3$d</xliff:g> s."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Chcete-li zobrazit další možnosti, odemkněte telefon"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Chcete-li zobrazit další možnosti, odemkněte tablet"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Chcete-li zobrazit další možnosti, odemkněte zařízení"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Přehrávání na tomto telefonu"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Přehrávání na tomto tabletu"</string>
+</resources>

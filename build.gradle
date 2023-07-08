@@ -1,0 +1,137 @@
+plugins {
+    id 'com.android.application' version '8.0.2' apply true
+    id 'com.android.library' version '8.0.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.22' apply true
+    id 'org.jetbrains.kotlin.kapt' version '1.7.22' apply true
+    id 'com.google.protobuf' version '0.9.3' apply true
+}
+
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.bootstrapClasspath = files([new File('libs/framework.jar'),
+                                                options.bootstrapClasspath.files].flatten())
+        }
+    }
+}
+
+android {
+    namespace 'com.android.systemui'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.android.systemui"
+        minSdk 30
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    lintOptions {
+        abortOnError false
+        absolutePaths false
+        lintConfig rootProject.file('lint.xml')
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs += ['-Xjvm-default=enable']
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs 'src'
+            res.srcDirs 'res', 'res-product', 'res-keyguard'
+            manifest.srcFile 'AndroidManifest.xml'
+
+            aidl {
+                srcDirs 'src'
+                include '**/*.aidl'
+            }
+
+            proto {
+                srcDirs 'src'
+                include '**/*.proto'
+            }
+        }
+
+        debug {
+            java.srcDirs 'src-debug'
+        }
+
+        release {
+            java.srcDirs 'src-release'
+        }
+    }
+
+    protobuf {
+        protoc {
+            artifact = "com.google.protobuf:protoc:3.23.3"
+
+            if (osdetector.os == 'osx') {
+                artifact += ':osx-x86_64'
+            }
+        }
+
+        generateProtoTasks {
+            all().each { task ->
+                task.builtins {
+                    remove javanano
+                }
+
+                task.builtins {
+                    javanano {}
+                }
+            }
+        }
+    }
+
+    buildFeatures {
+        aidl true
+    }
+}
+
+dependencies {
+    compileOnly rootProject.files('libs/framework.jar')
+
+    implementation project(':animation')
+    implementation project(':plugin')
+    implementation project(':shared')
+    implementation project(':monet')
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    // runtimeOnly 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.concurrent:concurrent-futures:1.1.0'
+    implementation 'androidx.mediarouter:mediarouter:1.4.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    // implementation 'androidx.legacy:legacy-preference-v14:1.0.0'
+    implementation 'androidx.leanback:leanback:1.0.0'
+    implementation 'androidx.slice:slice-core:1.1.0-alpha02'
+    implementation 'androidx.slice:slice-view:1.1.0-alpha02'
+    implementation 'androidx.slice:slice-builders:1.1.0-alpha02'
+
+    implementation 'com.google.android.material:material:1.6.1'
+
+    implementation "com.google.dagger:dagger:2.44.2"
+    kapt "com.google.dagger:dagger-compiler:2.44.2"
+}
+

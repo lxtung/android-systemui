@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+    <item name="translation_x_animator_tag" type="id" />
+    <item name="translation_y_animator_tag" type="id" />
+    <item name="translation_z_animator_tag" type="id" />
+    <item name="alpha_animator_tag" type="id" />
+    <item name="scale_x_animator_tag" type="id" />
+    <item name="scale_y_animator_tag" type="id" />
+    <item name="top_inset_animator_tag" type="id" />
+    <item name="bottom_inset_animator_tag" type="id" />
+    <item name="height_animator_tag" type="id" />
+    <item name="x_animator_tag" type="id" />
+    <item name="y_animator_tag" type="id" />
+    <item name="translation_x_animator_end_value_tag" type="id" />
+    <item name="translation_y_animator_end_value_tag" type="id" />
+    <item name="translation_z_animator_end_value_tag" type="id" />
+    <item name="scale_x_animator_end_value_tag" type="id" />
+    <item name="scale_y_animator_end_value_tag" type="id" />
+    <item name="alpha_animator_end_value_tag" type="id" />
+    <item name="top_inset_animator_end_value_tag" type="id" />
+    <item name="bottom_inset_animator_end_value_tag" type="id" />
+    <item name="height_animator_end_value_tag" type="id" />
+    <item name="x_animator_tag_end_value" type="id" />
+    <item name="y_animator_tag_end_value" type="id" />
+    <item name="translation_x_animator_start_value_tag" type="id" />
+    <item name="translation_y_animator_start_value_tag" type="id" />
+    <item name="translation_z_animator_start_value_tag" type="id" />
+    <item name="scale_x_animator_start_value_tag" type="id" />
+    <item name="scale_y_animator_start_value_tag" type="id" />
+    <item name="alpha_animator_start_value_tag" type="id" />
+    <item name="top_inset_animator_start_value_tag" type="id" />
+    <item name="bottom_inset_animator_start_value_tag" type="id" />
+    <item name="height_animator_start_value_tag" type="id" />
+    <item name="x_animator_tag_start_value" type="id" />
+    <item name="y_animator_tag_start_value" type="id" />
+    <item name="qs_icon_tag" type="id" />
+    <item name="qs_slash_tag" type="id" />
+    <item name="scrim" type="id" />
+    <item name="scrim_alpha_start" type="id" />
+    <item name="scrim_alpha_end" type="id" />
+    <item name="transformation_start_x_tag" type="id" />
+    <item name="doze_intensity_tag" type="id" />
+    <item name="transformation_start_y_tag" type="id" />
+    <item name="transformation_start_actual_width" type="id" />
+    <item name="transformation_start_actual_height" type="id" />
+    <item name="transformation_start_scale_x_tag" type="id" />
+    <item name="transformation_start_scale_y_tag" type="id" />
+    <item name="continuous_clipping_tag" type="id" />
+    <item name="panel_alpha_animator_tag" type="id" />
+    <item name="panel_alpha_animator_start_tag" type="id" />
+    <item name="panel_alpha_animator_end_tag" type="id" />
+    <item name="cross_fade_layer_type_changed_tag" type="id" />
+
+    <item name="absolute_x_animator_tag" type="id" />
+    <item name="absolute_x_animator_start_tag" type="id" />
+    <item name="absolute_x_animator_end_tag" type="id" />
+    <item name="absolute_x_current_value" type="id" />
+
+    <item name="absolute_y_animator_tag" type="id" />
+    <item name="absolute_y_animator_start_tag" type="id" />
+    <item name="absolute_y_animator_end_tag" type="id" />
+    <item name="absolute_y_current_value" type="id" />
+
+    <item name="view_height_animator_tag" type="id" />
+    <item name="view_height_animator_start_tag" type="id" />
+    <item name="view_height_animator_end_tag" type="id" />
+    <item name="view_height_current_value" type="id" />
+
+    <item name="view_width_animator_tag" type="id" />
+    <item name="view_width_animator_start_tag" type="id" />
+    <item name="view_width_animator_end_tag" type="id" />
+    <item name="view_width_current_value" type="id" />
+
+    <item name="requires_remeasuring" type="id" />
+
+    <item name="secondary_home_handle" type="id" />
+
+    <!-- Whether the icon is from a notification for which targetSdk < L -->
+    <item name="icon_is_pre_L" type="id" />
+
+    <!-- For notification icons for which targetSdk < L, this caches whether the icon is grayscale -->
+    <item name="icon_is_grayscale" type="id" />
+    <item name="image_icon_tag" type="id" />
+    <item name="align_transform_end_tag" type="id" />
+    <item name="contains_transformed_view" type="id" />
+    <item name="is_clicked_heads_up_tag" type="id" />
+
+    <item name="bottom_roundess_animator_tag" type="id" />
+    <item name="bottom_roundess_animator_start_tag" type="id" />
+    <item name="bottom_roundess_animator_end_tag" type="id" />
+
+    <item name="top_roundess_animator_tag" type="id" />
+    <item name="top_roundess_animator_start_tag" type="id" />
+    <item name="top_roundess_animator_end_tag" type="id" />
+
+    <item name="keyguard_hun_animator_tag" type="id" />
+    <item name="keyguard_hun_animator_start_tag" type="id" />
+    <item name="keyguard_hun_animator_end_tag" type="id" />
+
+    <item name="view_group_fade_helper_modified_views" type="id" />
+    <item name="view_group_fade_helper_animator" type="id" />
+    <item name="view_group_fade_helper_previous_value_tag" type="id" />
+    <item name="view_group_fade_helper_restore_tag" type="id" />
+    <item name="view_group_fade_helper_hardware_layer" type="id" />
+
+    <!-- Accessibility actions for the notification menu -->
+    <item name="action_snooze_undo" type="id" />
+    <item name="action_snooze_shorter" type="id" />
+    <item name="action_snooze_short" type="id" />
+    <item name="action_snooze_long" type="id" />
+    <item name="action_snooze_longer" type="id" />
+    <item name="action_snooze_assistant_suggestion_1" type="id" />
+    <item name="action_snooze" type="id" />
+
+    <!-- For StatusIconContainer to tag its icon views -->
+    <item name="status_bar_view_state_tag" type="id" />
+
+    <item name="display_cutout" type="id" />
+
+    <item name="row_tag_for_content_view" type="id" />
+
+    <!-- Optional cancel button on Keyguard -->
+    <item name="cancel_button" type="id" />
+
+    <!-- Global Actions Menu -->
+    <item name="global_actions_view" type="id" />
+
+    <!-- NotificationPanelView -->
+    <item name="notification_panel" type="id" />
+
+    <!-- Screen Recording -->
+    <item name="screen_recording_options" type="id" />
+    <item name="screen_recording_dialog_source_text" type="id" />
+    <item name="screen_recording_dialog_source_description" type="id" />
+
+    <item name="accessibility_action_controls_move_before" type="id" />
+    <item name="accessibility_action_controls_move_after" type="id" />
+
+    <item name="accessibility_action_qs_move_to_position" type="id" />
+    <item name="accessibility_action_qs_add_to_position" type="id" />
+
+    <!-- Accessibility actions for window magnification. -->
+    <item name="accessibility_action_zoom_in" type="id" />
+    <item name="accessibility_action_zoom_out" type="id" />
+    <item name="accessibility_action_move_left" type="id" />
+    <item name="accessibility_action_move_right" type="id" />
+    <item name="accessibility_action_move_up" type="id" />
+    <item name="accessibility_action_move_down" type="id" />
+
+    <!-- Accessibility actions for Accessibility floating menu. -->
+    <item name="action_move_top_left" type="id" />
+    <item name="action_move_top_right" type="id" />
+    <item name="action_move_bottom_left" type="id" />
+    <item name="action_move_bottom_right" type="id" />
+    <item name="action_move_to_edge_and_hide" type="id" />
+    <item name="action_move_out_edge_and_show" type="id" />
+
+    <!-- rounded corner view id -->
+    <item name="rounded_corner_top_left" type="id" />
+    <item name="rounded_corner_top_right" type="id" />
+    <item name="rounded_corner_bottom_left" type="id" />
+    <item name="rounded_corner_bottom_right" type="id" />
+</resources>
+

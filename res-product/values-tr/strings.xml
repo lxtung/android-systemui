@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Daha hızlı şarj olması için telefonun yerini ayarlayın"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Telefonu kablosuz olarak şarj etmek için yerini ayarlayın"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV cihazı kısa süre içinde kapanacak. Açık tutmak için bir düğmeye basın."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Cihaz kısa süre içinde kapanacak. Açık tutmak için düğmeye basın."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Tablette SIM kart yok."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Telefonda SIM kart yok."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"PIN kodları eşleşmiyor"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız bu tablet sıfırlanacak ve tüm verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Telefonun kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız bu telefon sıfırlanacak ve tüm verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. Bu tablet sıfırlanacak ve tüm verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Telefonun kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. Bu telefon sıfırlanacak ve tüm verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız bu kullanıcı kaldırılacak ve tüm kullanıcı verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Telefonun kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız bu kullanıcı kaldırılacak ve tüm kullanıcı verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. Bu kullanıcı kaldırılacak ve tüm kullanıcı verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Telefonun kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. Bu kullanıcı kaldırılacak ve tüm kullanıcı verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız iş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Telefonun kilidini <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı bir şekilde açmayı denediniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız iş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Tabletin kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. İş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Telefonun kilidini <xliff:g id="NUMBER">%d</xliff:g> kez hatalı bir şekilde açmayı denediniz. İş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Kilit açma deseninizi <xliff:g id="NUMBER_0">%1$d</xliff:g> kez hatalı çizdiniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız tabletinizin kilidini bir e-posta hesabı kullanarak açmanız istenir.\n<xliff:g id="NUMBER_2">%3$d</xliff:g>\n saniye içinde tekrar deneyin."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Kilit açma deseninizi <xliff:g id="NUMBER_0">%1$d</xliff:g> kez yanlış çizdiniz. <xliff:g id="NUMBER_1">%2$d</xliff:g> başarısız deneme daha yaparsanız telefonunuzu bir e-posta hesabı kullanarak açmanız istenir.\n\n <xliff:g id="NUMBER_2">%3$d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Diğer seçenekler için telefonunuzun kilidini açın"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Diğer seçenekler için tabletinizin kilidini açın"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Diğer seçenekler için cihazınızın kilidini açın"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Bu telefonda oynatılıyor"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Bu tablette oynatılıyor"</string>
+</resources>

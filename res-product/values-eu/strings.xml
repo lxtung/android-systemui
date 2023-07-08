@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Jarri ondo telefonoa, bizkorrago karga dadin"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Jarri ondo telefonoa, haririk gabe karga dadin"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV gailua laster itzaliko da; sakatu botoi bat piztuta mantentzeko."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Gailua laster itzaliko da; sakatu piztuta mantentzeko."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Ez dago SIM txartelik tabletan."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Ez dago SIM txartelik telefonoan."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"PIN kodeak ez datoz bat"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, berrezarri egingo da tableta eta, ondorioz, bertako datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, berrezarri egingo da telefonoa eta, ondorioz, bertako datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Tableta berrezarri egingo da eta, ondorioz, bertako datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Telefonoa berrezarri egingo da eta, ondorioz, bertako datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, kendu egingo da erabiltzailea eta, ondorioz, haren datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, kendu egingo da erabiltzailea eta, ondorioz, haren datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Erabiltzailea kendu egingo da eta, ondorioz, haren datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Erabiltzailea kendu egingo da eta, ondorioz, haren datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, kendu egingo da laneko profila eta, ondorioz, profileko datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"<xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz huts egiten baduzu, kendu egingo da laneko profila eta, ondorioz, profileko datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara tableta desblokeatzen, baina huts egin duzu denetan. Laneko profila kendu egingo da eta, ondorioz, profileko datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"<xliff:g id="NUMBER">%d</xliff:g> aldiz saiatu zara telefonoa desblokeatzen, baina huts egin duzu denetan. Laneko profila kendu egingo da eta, ondorioz, profileko datu guztiak ezabatuko dira."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Desblokeatzeko eredua oker marraztu duzu <xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz oker marrazten baduzu, tableta posta-kontu baten bidez desblokeatzeko eskatuko dizugu.\n\n Saiatu berriro <xliff:g id="NUMBER_2">%3$d</xliff:g> segundo barru."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Desblokeatzeko eredua oker marraztu duzu <xliff:g id="NUMBER_0">%1$d</xliff:g> aldiz. Beste <xliff:g id="NUMBER_1">%2$d</xliff:g> aldiz oker marrazten baduzu, telefonoa posta-kontu baten bidez desblokeatzeko eskatuko dizugu.\n\n Saiatu berriro <xliff:g id="NUMBER_2">%3$d</xliff:g> segundo barru."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Desblokeatu telefonoa aukera gehiago ikusteko"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Desblokeatu tableta aukera gehiago ikusteko"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Desblokeatu gailua aukera gehiago ikusteko"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Telefono honetan erreproduzitzen"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Tableta honetan erreproduzitzen"</string>
+</resources>

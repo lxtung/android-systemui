@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Drejtvendose përsëri telefonin për karikim më të shpejtë"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Drejtvendose përsëri telefonin për ta karikuar me valë"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Pajisja Android TV së shpejti do të fiket. Shtyp një buton për ta mbajtur të ndezur."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Pajisja së shpejti do të fiket. Shtype për ta mbajtur të ndezur."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Nuk ka kartë SIM në tablet."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Në telefon nuk ka kartë SIM."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Kodet PIN nuk përputhen"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë gabimisht për ta shkyçur tabletin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> përpjekjeve të tjera të pasuksesshme, tableti do të rivendoset, gjë që do të rivendosë të gjitha të dhënat e tij."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë gabimisht për ta shkyçur telefonin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> përpjekjeve të tjera të pasuksesshme, telefoni do të rivendoset, gjë që do të fshijë të gjitha të dhënat e tij."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur tabletin. Ky tablet do të rivendoset, gjë që do të fshijë të gjitha të dhënat e tij."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur telefonin. Ky telefon do të rivendoset, gjë që do të fshijë të gjitha të dhënat e tij."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses për ta shkyçur telefonin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, përdoruesi do të hiqet dhe të gjitha të dhënat e përdoruesit në të, do të fshihen."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses për ta shkyçur telefonin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, përdoruesi do të hiqet dhe të gjitha të dhënat e përdoruesit në të, do të fshihen."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur tabletin. Përdoruesi do të hiqet, gjë që do të fshijë të gjitha të dhënat e përdoruesit."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur telefonin. Përdoruesi do të hiqet, gjë që do të fshijë të gjitha të dhënat e përdoruesit."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses për ta shkyçur tabletin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, profili i punës do të hiqet dhe të gjitha të dhënat në të do të fshihen."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Ke tentuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses për ta shkyçur telefonin. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, profili i punës do të hiqet dhe të gjitha të dhënat në të do të fshihen."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur tabletin. Profili i punës do të hiqet, gjë që do të fshijë të gjitha të dhënat e profilit."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Ke tentuar <xliff:g id="NUMBER">%d</xliff:g> herë pa sukses për ta shkyçur telefonin. Profili i punës do të hiqet, gjë që do të fshijë të gjitha të dhënat e profilit."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Ke vizatuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses motivin tënd të shkyçjes. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, do të të duhet ta shkyçësh tabletin duke përdorur një llogari email-i.\n\n Provo sërish për <xliff:g id="NUMBER_2">%3$d</xliff:g> sekonda."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Ke vizatuar <xliff:g id="NUMBER_0">%1$d</xliff:g> herë pa sukses motivin tënd. Pas <xliff:g id="NUMBER_1">%2$d</xliff:g> tentativave të tjera të pasuksesshme, do të të duhet ta shkyçësh telefonin duke përdorur një llogari email-i.\n\n Provo sërish për <xliff:g id="NUMBER_2">%3$d</xliff:g> sekonda."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Shkyçe telefonin për më shumë opsione"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Shkyçe tabletin për më shumë opsione"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Shkyçe pajisjen për më shumë opsione"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Po luhet në këtë telefon"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Po luhet në këtë tablet"</string>
+</resources>

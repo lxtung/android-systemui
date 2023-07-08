@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Pangilia tena simu ili ichaji kwa kasi"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Pangilia tena simu ili ichaji bila kutumia waya"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Kifaa cha Android TV kitazima hivi karibuni; bonyeza kitufe ili kisizime."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Kifaa kitazima hivi karibuni; bonyeza ili kisizime."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Hakuna SIM kadi katika kompyuta kibao."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Hakuna SIM kadi kwenye simu."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Misimbo ya PIN haifanani"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Umejaribu kufungua kompyuta kibao mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, kompyuta hii kibao itarejeshwa katika hali iliyotoka nayo kiwandani, hatua itakayofuta data yake yote."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, simu hii itarejeshwa katika hali iliyotoka nayo kiwandani, hatua itakayofuta data yake yote."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Umejaribu kufungua simu mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Kompyuta hii kibao itarejeshwa katika hali iliyotoka nayo kiwandani, hatua itakayofuta data yake yote."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Simu hii itarejeshwa katika hali iliyotoka nayo kiwandani, hatua itakayofuta data yake yote."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Umejaribu kufungua kompyuta kibao mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, mtumiaji huyu ataondolewa, hatua itakayofuta data yote ya mtumiaji."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, mtumiaji huyu ataondolewa, hatua itakayofuta data yote ya mtumiaji."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Umejaribu kufungua kompyuta kibao mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Mtumiaji huyu ataondolewa, hatua itakayofuta data yote ya mtumiaji."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Mtumiaji huyu ataondolewa, hatua itakayofuta data yote ya mtumiaji."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Umejaribu kufungua kompyuta kibao mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, wasifu wa kazini utaondolewa, hatua itakayofuta data yote ya wasifu."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER_0">%1$d</xliff:g> bila mafanikio. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, wasifu wa kazini utaondolewa, hatua itakayofuta data yote ya wasifu."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Umejaribu kufungua kompyuta kibao mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Wasifu wa kazini utaondolewa, hatua itakayofuta data yote ya wasifu."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Umejaribu kufungua simu mara <xliff:g id="NUMBER">%d</xliff:g> bila mafanikio. Wasifu wa kazini utaondolewa, hatua itakayofuta data yote ya wasifu."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Umeweka mchoro usio sahihi wa kufungua skrini mara <xliff:g id="NUMBER_0">%1$d</xliff:g>. Baada ya majaribio <xliff:g id="NUMBER_1">%2$d</xliff:g> zaidi bila mafanikio, utaombwa ufungue kompyuta yako kibao kwa kutumia akaunti ya barua pepe.\n\n Jaribu tena baada ya sekunde <xliff:g id="NUMBER_2">%3$d</xliff:g>."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Umeweka mchoro usio sahihi wa kufungua skrini mara <xliff:g id="NUMBER_0">%1$d</xliff:g>. Ukikosea mara nyingine <xliff:g id="NUMBER_1">%2$d</xliff:g>, utaombwa ufungue simu yako kwa kutumia akaunti ya barua pepe.\n\n Jaribu tena baada ya sekunde <xliff:g id="NUMBER_2">%3$d</xliff:g>."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Fungua simu yako ili upate chaguo zaidi"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Fungua kompyuta yako kibao ili upate chaguo zaidi"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Fungua kifaa chako ili upate chaguo zaidi"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Inacheza kwenye simu hii"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Inacheza kwenye kompyuta hii kibao"</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Поново поставите телефон ради бржег пуњења"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Поново поставите телефон ради бежичног пуњења"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV ће се ускоро искључити. Притисните дугме да би остао укључен."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Уређај ће се ускоро искључити. Притисните да би остао укључен."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"У таблету нема SIM картице."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"У телефону нема SIM картице."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"PIN кодови се не подударају"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, овај таблет ће се ресетовати, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, овај телефон ће се ресетовати, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER">%d</xliff:g> пута. Овај таблет ће се ресетовати, чиме се бришу сви подаци."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER">%d</xliff:g> пута. Овај телефон ће се ресетовати, чиме се бришу сви подаци."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, уклонићемо овог корисника, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, уклонићемо овог корисника, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER">%d</xliff:g> пута. Уклонићемо овог корисника, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER">%d</xliff:g> пута. Уклонићемо овог корисника, чиме се бришу сви подаци корисника."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, уклонићемо пословни профил, чиме се бришу сви подаци са профила."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, уклонићемо пословни профил, чиме се бришу сви подаци са профила."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Погрешно сте покушали да откључате таблет <xliff:g id="NUMBER">%d</xliff:g> пута. Уклонићемо пословни профил, чиме се бришу сви подаци са профила."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Погрешно сте покушали да откључате телефон <xliff:g id="NUMBER">%d</xliff:g> пута. Уклонићемо пословни профил, чиме се бришу сви подаци са профила."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Нетачно сте нацртали шаблон за откључавање <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, затражићемо да откључате таблет помоћу имејл налога.\n\n Пробајте поново за <xliff:g id="NUMBER_2">%3$d</xliff:g> сек."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Нетачно сте нацртали шаблон за откључавање <xliff:g id="NUMBER_0">%1$d</xliff:g> пута. Ако погрешно покушате још <xliff:g id="NUMBER_1">%2$d</xliff:g> пута, затражићемо да откључате телефон помоћу имејл налога.\n\n Пробајте поново за <xliff:g id="NUMBER_2">%3$d</xliff:g> сек."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Откључајте телефон за још опција"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Откључајте таблет за још опција"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Откључајте уређај за још опција"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Пушта се на овом телефону"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Пушта се на овом таблету"</string>
+</resources>

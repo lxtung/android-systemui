@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"फ़ोन को फ़ास्ट चार्ज करने के लिए, डॉक पर ठीक तरह से रखें"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"वायरलेस चार्जिंग के लिए, फ़ोन को डॉक पर ठीक तरह से रखें"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV डिवाइस जल्द ही बंद हो जाएगा. इसे चालू रखने के लिए किसी बटन को दबाएं."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"डिवाइस जल्द ही बंद हो जाएगा. इसे चालू रखने के लिए किसी बटन को दबाएं."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"टैबलेट में कोई SIM कार्ड नहीं है."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"फ़ोन में कोई SIM कार्ड नहीं है."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"पिन कोड मेल नहीं खा रहा"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, इस टैबलेट को रीसेट कर दिया जाएगा. ऐसा होने पर, इसका सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, इस फ़ोन को रीसेट कर दिया जाएगा. ऐसा होने पर, इसका सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इस टैबलेट को रीसेट किया जाएगा जिससे इसका सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इस फ़ोन को रीसेट किया जाएगा जिससे इसका सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, इस उपयोगकर्ता को हटा दिया जाएगा. ऐसा होने पर, उपयोगकर्ता का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, इस उपयोगकर्ता को हटा दिया जाएगा. ऐसा होने पर, उपयोगकर्ता का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इस उपयोगकर्ता को हटा दिया जाएगा जिससे उपयोगकर्ता का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इस उपयोगकर्ता को हटा दिया जाएगा जिससे उपयोगकर्ता का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, वर्क प्रोफ़ाइल को हटा दिया जाएगा. ऐसा होने पर, प्रोफ़ाइल का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पासवर्ड डालने के बाद, वर्क प्रोफ़ाइल को हटा दिया जाएगा. ऐसा होने पर, प्रोफ़ाइल का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"आप टैबलेट को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इस वर्क प्रोफ़ाइल को हटा दिया जाएगा जिससे उपयोगकर्ता की प्रोफ़ाइल का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"आप फ़ोन को अनलॉक करने के लिए <xliff:g id="NUMBER">%d</xliff:g> बार गलत पासवर्ड डाल चुके हैं. इसकी वजह से वर्क प्रोफ़ाइल को हटा दिया जाएगा जिससे उपयोगकर्ता की प्रोफ़ाइल का सारा डेटा मिट जाएगा."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"आपने लॉक खोलने के पैटर्न को <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत तरीके से बनाया है. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पैटर्न बनाने के बाद, टैबलेट को अनलॉक करने के लिए आपसे ईमेल खाते का इस्तेमाल करने को कहा जाएगा.\n\n अनलॉक करने के लिए <xliff:g id="NUMBER_2">%3$d</xliff:g> सेकंड में फिर से कोशिश करें."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"आपने लॉक खोलने के पैटर्न को <xliff:g id="NUMBER_0">%1$d</xliff:g> बार गलत तरीके से बनाया है. इसलिए, <xliff:g id="NUMBER_1">%2$d</xliff:g> और गलत पैटर्न बनाने के बाद, आपसे फ़ोन को अनलॉक करने के लिए ईमेल खाते का इस्तेमाल करने को कहा जाएगा.\n\n अनलॉक करने के लिए <xliff:g id="NUMBER_2">%3$d</xliff:g> सेकंड में फिर से कोशिश करें."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"ज़्यादा विकल्प देखने के लिए, अपना फ़ोन अनलॉक करें"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"ज़्यादा विकल्प देखने के लिए, अपना टैबलेट अनलॉक करें"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"ज़्यादा विकल्प देखने के लिए, अपना डिवाइस अनलॉक करें"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"मीडिया इस फ़ोन पर चल रहा है"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"मीडिया इस टैबलेट पर चल रहा है"</string>
+</resources>

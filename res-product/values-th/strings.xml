@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"จัดวางโทรศัพท์ใหม่เพื่อให้ชาร์จได้เร็วขึ้น"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"จัดวางโทรศัพท์ใหม่เพื่อชาร์จแบบไร้สาย"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"อุปกรณ์ Android TV จะปิดเครื่องในอีกไม่ช้า กดปุ่มเพื่อเปิดอุปกรณ์ต่อไป"</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"อุปกรณ์จะปิดเครื่องในอีกไม่ช้า กดเพื่อเปิดอุปกรณ์ต่อไป"</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"ไม่มีซิมการ์ดในแท็บเล็ต"</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"ไม่มีซิมการ์ดในโทรศัพท์"</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"รหัส PIN ไม่ตรง"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะรีเซ็ตแท็บเล็ตเครื่องนี้ ซึ่งจะเป็นการลบข้อมูลทั้งหมดในเครื่อง"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะรีเซ็ตโทรศัพท์เครื่องนี้ ซึ่งจะเป็นการลบข้อมูลทั้งหมดในเครื่อง"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะรีเซ็ตแท็บเล็ตเครื่องนี้ ซึ่งจะเป็นการลบข้อมูลทั้งหมดในเครื่อง"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะรีเซ็ตโทรศัพท์เครื่องนี้ ซึ่งจะเป็นการลบข้อมูลทั้งหมดในเครื่อง"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะนำผู้ใช้รายนี้ออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดของผู้ใช้"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะนำผู้ใช้รายนี้ออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดของผู้ใช้"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะนำผู้ใช้รายนี้ออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดของผู้ใช้"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะนำผู้ใช้รายนี้ออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดของผู้ใช้"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะนำโปรไฟล์งานออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดในโปรไฟล์"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะนำโปรไฟล์งานออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดในโปรไฟล์"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"คุณปลดล็อกแท็บเล็ตไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะนำโปรไฟล์งานออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดในโปรไฟล์"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"คุณปลดล็อกโทรศัพท์ไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ระบบจะนำโปรไฟล์งานออก ซึ่งจะเป็นการลบข้อมูลทั้งหมดในโปรไฟล์"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะขอให้คุณปลดล็อกแท็บเล็ตโดยใช้บัญชีอีเมล\n\n โปรดลองอีกครั้งใน <xliff:g id="NUMBER_2">%3$d</xliff:g> วินาที"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="NUMBER_0">%1$d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%2$d</xliff:g> ครั้ง ระบบจะขอให้คุณปลดล็อกโทรศัพท์โดยใช้บัญชีอีเมล\n\n โปรดลองอีกครั้งในอีก <xliff:g id="NUMBER_2">%3$d</xliff:g> วินาที"</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"ปลดล็อกโทรศัพท์เพื่อดูตัวเลือกเพิ่มเติม"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"ปลดล็อกแท็บเล็ตเพื่อดูตัวเลือกเพิ่มเติม"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"ปลดล็อกอุปกรณ์เพื่อดูตัวเลือกเพิ่มเติม"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"กำลังเล่นในโทรศัพท์เครื่องนี้"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"กำลังเล่นในแท็บเล็ตเครื่องนี้"</string>
+</resources>

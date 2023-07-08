@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Կարգավորեք հեռախոսը՝ ավելի արագ լիցքավորելու համար"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Կարգավորեք հեռախոսը` առանց լարի լիցքավորելու համար"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV սարքը շուտով կանջատվի: Սեղմեք որևէ կոճակ՝ միացրած թողնելու համար:"</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Սարքը շուտով կանջատվի: Սեղմեք՝ միացրած թողնելու համար:"</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Պլանշետում SIM քարտ չկա:"</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Հեռախոսում SIM քարտ չկա:"</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"PIN կոդերը չեն համընկնում"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո այս պլանշետը կվերակայվի և բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո այս հեռախոսի կարգավորումները կզրոյացվեն, և բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Պլանշետի կարգավորումները կզրոյացվեն, և բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Հեռախոսի կարգավորումները կզրոյացվեն, և բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո այս օգտատերը կհեռացվի, և նրա բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո այս օգտատերը կհեռացվի, և նրա բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Օգտատերը կհեռացվի, և նրա բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Օգտատերը կհեռացվի, և նրա բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո աշխատանքային պրոֆիլը կհեռացվի, և պրոֆիլի բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո աշխատանքային պրոֆիլը կհեռացվի, և պրոֆիլի բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Դուք կատարել եք պլանշետն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Աշխատանքային պրոֆիլը կհեռացվի, և պրոֆիլի բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Դուք կատարել եք հեռախոսն ապակողպելու <xliff:g id="NUMBER">%d</xliff:g> անհաջող փորձ: Աշխատանքային պրոֆիլը կհեռացվի, և պրոֆիլի բոլոր տվյալները կջնջվեն:"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Դուք կատարել եք ապակողպման նախշը մուտքագրելու <xliff:g id="NUMBER_0">%1$d</xliff:g> անհաջող փորձ: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո ձեզանից կպահանջվի ապակողպել պլանշետը էլփոստի հաշվի միջոցով։\n\n Խնդրում ենք կրկին փորձել <xliff:g id="NUMBER_2">%3$d</xliff:g> վայրկյանից:"</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Դուք <xliff:g id="NUMBER_0">%1$d</xliff:g> անգամ սխալ եք հավաքել ձեր ապակողպման նմուշը: Եվս <xliff:g id="NUMBER_1">%2$d</xliff:g> անհաջող փորձից հետո ձեզ կառաջարկվի ապակողպել հեռախոսը` օգտագործելով էլփոստի հաշիվ:\n\n Կրկին փորձեք <xliff:g id="NUMBER_2">%3$d</xliff:g> վայրկյանից:"</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Ապակողպեք ձեր հեռախոսը՝ լրացուցիչ կարգավորումները տեսնելու համար"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Ապակողպեք ձեր պլանշետը՝ լրացուցիչ կարգավորումները տեսնելու համար"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Ապակողպեք ձեր սարքը՝ լրացուցիչ կարգավորումները տեսնելու համար"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Նվագարկվում է այս հեռախոսում"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Նվագարկվում է այս պլանշետում"</string>
+</resources>

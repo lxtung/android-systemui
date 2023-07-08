@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Za hitrejše polnjenje poravnajte telefon z nosilcem"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Za brezžično polnjenje poravnajte telefon z nosilcem"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Naprava Android TV se bo kmalu izklopila. Če tega ne želite, pritisnite poljuben gumb."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Naprava se bo kmalu izklopila. Če tega ne želite, pritisnite."</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"V tabličnem računalniku ni kartice SIM."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"V telefonu ni kartice SIM."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"Kodi PIN se ne ujemata"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo ponastavljen in vsi podatki v njem bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo ponastavljen in vsi podatki v njem bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat, zato bo ponastavljen, vsi podatki v njem pa bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat, zato bo ponastavljen, vsi podatki v njem pa bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo ta uporabnik odstranjen in vsi podatki uporabnika bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo ta uporabnik odstranjen in vsi podatki uporabnika bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat. Ta uporabnik bo odstranjen in vsi podatki uporabnika bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat. Ta uporabnik bo odstranjen in vsi podatki uporabnika bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo delovni profil odstranjen in vsi podatki profila bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat. Če ga neuspešno poskusite odkleniti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, bo delovni profil odstranjen in vsi podatki profila bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Tablični računalnik ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat. Delovni profil bo odstranjen in vsi podatki profila bodo izbrisani."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Telefon ste neuspešno poskusili odkleniti <xliff:g id="NUMBER">%d</xliff:g>-krat. Delovni profil bo odstranjen in vsi podatki profila bodo izbrisani."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Vzorec za odklepanje ste <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat napačno vnesli. Če ga neuspešno poskusite vnesti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, boste pozvani, da tablični računalnik odklenete z e-poštnim računom.\n\nPoskusite znova čez <xliff:g id="NUMBER_2">%3$d</xliff:g> s."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Vzorec za odklepanje ste <xliff:g id="NUMBER_0">%1$d</xliff:g>-krat napačno vnesli. Če ga neuspešno poskusite vnesti še <xliff:g id="NUMBER_1">%2$d</xliff:g>-krat, boste pozvani, da telefon odklenete z e-poštnim računom.\n\nPoskusite znova čez <xliff:g id="NUMBER_2">%3$d</xliff:g> s."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Za več možnosti odklenite telefon"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Za več možnosti odklenite tablični računalnik"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Za več možnosti odklenite napravo"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Predvajanje v tem telefonu"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Predvajanje v tem tabličnem računalniku"</string>
+</resources>

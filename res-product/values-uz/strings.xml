@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dock_alignment_slow_charging" msgid="6997633396534416792" product="default">"Tezkor quvvatlanishi uchun telefonni dok-stansiyaga joylang"</string>
+    <string name="dock_alignment_not_charging" msgid="3980752926226749808" product="default">"Telefon quvvat olishi uchun uni dok-stansiyaga joylang"</string>
+    <string name="inattentive_sleep_warning_message" msgid="6844464574089665063" product="tv">"Android TV qurilmasi oʻchish arafasida, yoniq qolishi uchun istalgan tugmani bosing."</string>
+    <string name="inattentive_sleep_warning_message" msgid="5693904520452332224" product="default">"Qurilma oʻchish arafasida, yoniq qolishi uchun istalgan tugmani bosing"</string>
+    <string name="keyguard_missing_sim_message" msgid="5018086454277963787" product="tablet">"Planshetingizda SIM karta yoʻq."</string>
+    <string name="keyguard_missing_sim_message" msgid="7053347843877341391" product="default">"Telefoningizda SIM karta yoʻq."</string>
+    <string name="kg_invalid_confirm_pin_hint" msgid="6278551068943958651" product="default">"PIN kod mos kelmadi"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="302165994845009232" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ushbu planshetda zavod sozlamalari qayta tiklanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" msgid="2594813176164266847" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ushbu telefonda zavod sozlamalari qayta tiklanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="8710104080409538587" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi, ushbu planshetda zavod sozlamalari qayta tiklanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_wiping" msgid="6381835450014881813" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi ushbu telefonda zavod sozlamalari qayta tiklanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="7325071812832605911" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ushbu foydalanuvchi oʻchirib tashlanadi va undagi barcha foydalanuvchi maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" msgid="8110939900089863103" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ushbu foydalanuvchi oʻchirib tashlanadi va undagi barcha foydalanuvchi maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="8509811676952707883" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi ushbu foydalanuvchi oʻchirib tashlanadi va undagi barcha foydalanuvchi maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_erasing_user" msgid="3051962486994265014" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi ushbu foydalanuvchi oʻchirib tashlanadi va undagi barcha foydalanuvchi maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="1049523640263353830" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ish profili oʻchirib tashlanadi va undagi barcha profil maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" msgid="3280816298678433681" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato urinish qildingiz. Agar yana <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, ish profili oʻchirib tashlanadi va undagi barcha profil maʼlumotlari ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4417100487251371559" product="tablet">"Siz planshetni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi ish profili oʻchirib tashlanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" msgid="4682221342671290678" product="default">"Siz telefonni qulfdan chiqarish uchun <xliff:g id="NUMBER">%d</xliff:g> marta xato urinish qildingiz. Endi ish profili oʻchirib tashlanadi va undagi barcha maʼlumotlar ham oʻchib ketadi."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="1860049973474855672" product="tablet">"Grafik kalit <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato chizildi. <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinishdan keyin sizdan emailingizdan foydalanib, planshet qulfini ochishingiz soʻraladi.\n\n <xliff:g id="NUMBER_2">%3$d</xliff:g> soniyadan keyin yana urinib koʻring."</string>
+    <string name="kg_failed_attempts_almost_at_login" msgid="44112553371516141" product="default">"Grafik kalit <xliff:g id="NUMBER_0">%1$d</xliff:g> marta xato chizildi. <xliff:g id="NUMBER_1">%2$d</xliff:g> marta muvaffaqiyatsiz urinishdan keyin sizdan emailngizdan foydalanib, telefon qulfini ochishingiz soʻraladi.\n\n <xliff:g id="NUMBER_2">%3$d</xliff:g> soniyadan keyin qayta urinib koʻring."</string>
+    <string name="global_action_lock_message" msgid="7092460751050168771" product="default">"Boshqa parametrlar uchun telefoningiz qulfini oching"</string>
+    <string name="global_action_lock_message" msgid="1024230056230539493" product="tablet">"Boshqa parametrlar uchun planshetingiz qulfini oching"</string>
+    <string name="global_action_lock_message" msgid="3165224897120346096" product="device">"Boshqa parametrlar uchun qurilmangiz qulfini oching"</string>
+    <string name="media_transfer_playing_this_device" msgid="5795784619523545556" product="default">"Bu telefonda ijro etilmoqda"</string>
+    <string name="media_transfer_playing_this_device" msgid="222514408550408633" product="tablet">"Bu planshetda ijro etilmoqda"</string>
+</resources>
