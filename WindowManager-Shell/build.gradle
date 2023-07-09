@@ -1,0 +1,95 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'com.google.protobuf'
+}
+
+android {
+    namespace 'com.android.wm.shell'
+    compileSdk 33
+
+    defaultConfig {
+        minSdk 30
+        targetSdk 33
+
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+        absolutePaths false
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs += ['-Xjvm-default=all']
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs 'src'
+            res.srcDirs 'res'
+            manifest.srcFile 'AndroidManifest.xml'
+
+            aidl {
+                srcDirs 'src'
+                include '**/*.aidl'
+            }
+
+            proto {
+                srcDirs 'proto'
+                include '**/*.proto'
+            }
+        }
+    }
+
+    protobuf {
+        protoc {
+            artifact = "com.google.protobuf:protoc:3.22.5"
+
+            if (osdetector.os == 'osx') {
+                artifact += ':osx-x86_64'
+            }
+        }
+
+        generateProtoTasks {
+            all().each { task ->
+                task.builtins {
+                    remove javanano
+                }
+
+                task.builtins {
+                    javanano {}
+                }
+            }
+        }
+    }
+
+    buildFeatures {
+        aidl true
+    }
+}
+
+dependencies {
+    compileOnly rootProject.files('libs/framework.jar')
+
+    implementation project(':iconloaderlib')
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.dynamicanimation:dynamicanimation:1.1.0-alpha03'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}

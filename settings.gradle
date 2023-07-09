@@ -38,4 +38,5 @@ rootProject.name = "SystemUI"
 include 'animation', 'monet', 'plugin_core', 'plugin', 'shared'
 include 'iconloaderlib'
 include 'WifiTrackerLib'
+include 'WindowManager-Shell'
 include 'SettingsLib', 'SettingsLib:HelpUtils'
