@@ -36,4 +36,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SystemUI"
 include 'animation', 'monet', 'plugin_core', 'plugin', 'shared'
-
+include 'iconloaderlib'

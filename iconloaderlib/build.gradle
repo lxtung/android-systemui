@@ -1,28 +1,27 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+}
 
 android {
-    compileSdkVersion COMPILE_SDK
-    buildToolsVersion BUILD_TOOLS_VERSION
+    namespace 'com.android.launcher3.icons'
+    compileSdk 33
 
     defaultConfig {
-        minSdkVersion 26
-        targetSdkVersion 28
+        minSdk 30
+        targetSdk 33
     }
 
     sourceSets {
         main {
-            java.srcDirs = ['src', 'src_full_lib']
+            java.srcDirs 'src', 'src_full_lib'
+            res.srcDirs 'res'
             manifest.srcFile 'AndroidManifest.xml'
-            res.srcDirs = ['res']
         }
     }
 
     lintOptions {
         abortOnError false
-    }
-
-    tasks.withType(JavaCompile) {
-        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        absolutePaths false
     }
 
     compileOptions {
@@ -32,5 +31,5 @@ android {
 }
 
 dependencies {
-    implementation "androidx.core:core:${ANDROID_X_VERSION}"
+    implementation "androidx.core:core:1.7.0"
 }
